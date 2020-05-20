@@ -30,5 +30,5 @@ let newArry = [];
      newArry.push(routine[i])
    }
    return newArry;
-   
+
  }
