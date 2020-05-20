@@ -7,7 +7,7 @@ function wakeDog(dogName, dogBreed){
 
  }
  function walkToPark(dogName, dogBreed) {
-     return `Walk to the Park with ${dogName} the ${dogBreed}`
+     return `Walk to the park with ${dogName} the ${dogBreed}`
 
  }
  function throwFrisbee(dogName, dogBreed) {
