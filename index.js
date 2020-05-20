@@ -28,7 +28,7 @@ let routine =  [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome,unleashDog
    let newArry = [];
 
    for (var i = 0; i < routine.length; i++) {
-     newArry.push(routine[i]())
+     newArry.push(routine[i](dogName, dogBreed))
    }
    return newArry;
 
