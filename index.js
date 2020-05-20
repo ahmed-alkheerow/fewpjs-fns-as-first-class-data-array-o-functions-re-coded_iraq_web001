@@ -23,11 +23,12 @@ function wakeDog(dogName, dogBreed){
 
  }
 let routine =  [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome,unleashDog];
-let newArry = [];
 
  function exerciseDog(dogName, dogBreed){
+   let newArry = [];
+
    for (var i = 0; i < routine.length; i++) {
-     newArry.push(routine[i])
+     newArry.push(routine[i]())
    }
    return newArry;
 
