@@ -22,7 +22,13 @@ function wakeDog(dogName, dogBreed){
      return `Unleash ${dogName} the ${dogBreed}`
 
  }
-let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome,unleashDog];
- function exerciseDog(dogName, dogbreed){
-   return routine ;
+let routine =  [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome,unleashDog];
+let newArry = [];
+
+ function exerciseDog(dogName, dogBreed){
+   for (var i = 0; i < routine.length; i++) {
+     newArry.push(routine[i])
+   }
+   return newArry;
+   
  }
